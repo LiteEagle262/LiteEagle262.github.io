@@ -95,7 +95,8 @@ IKU.MouseButton1Down:connect(function()
    Alt3 = 3828964367,
    Alt4 = 258346280,
    Alt5 = 297113126,
-   Alt6 = 231557711
+   Alt6 = 231557711,
+   Alt7 = 231391313
   }
   loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/AltControlV1', true))()
 end)
