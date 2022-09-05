@@ -92,7 +92,8 @@ IKU.MouseButton1Down:connect(function()
   getgenv().Alts = {
    Alt1 = 2537698719, -- Alts UserIDs here (UP TO 10, Just add more lines.)
    Alt2 = 2758971095,
-   Alt3 = 3828964367
+   Alt3 = 3828964367,
+   Alt4 = 258346280
   }
   loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/AltControlV1', true))()
 end)
