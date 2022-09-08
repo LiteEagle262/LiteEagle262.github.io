@@ -104,7 +104,7 @@ IKU.MouseButton1Down:connect(function()
 	    Alt8 = 283225060,
 	    Alt9 = 260992265,
 	    Alt10 = 237272712
-	    CrasherIDs = { 3828964367 }
+	    CrasherIDs = { 3828964367,258346280,297113126,231557711,231391313,283225060,260992265,271982749,237272712 }
 	}
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/6mf/lua-scripts/main/%F0%9F%A4%9D%F0%9F%98%81.lua"))()
 end)
