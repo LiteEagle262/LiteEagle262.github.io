@@ -87,21 +87,26 @@ IKU.Text = "IKU"
 IKU.TextColor3 = Color3.fromRGB(255, 255, 255)
 IKU.TextSize = 14.000
 IKU.MouseButton1Down:connect(function()
-  getgenv().Host = 'littleeagle207' -- Case Sensitive
-  getgenv().FPS = 1
-  getgenv().Alts = {
-   Alt1 = 271982749, -- Alts UserIDs here (UP TO 10, Just add more lines.)
-   Alt2 = 2758971095,
-   Alt3 = 3828964367,
-   Alt4 = 258346280,
-   Alt5 = 297113126,
-   Alt6 = 231557711,
-   Alt7 = 231391313,
-   Alt8 = 283225060,
-   Alt9 = 260992265,
-   Alt10 = 237272712
-  }
-  loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/AltControlV1', true))()
+	getgenv().Settings = {
+	    host = 217675211,
+	    fps = 1,
+	    prefix = '.',
+	    advertmsg = 'EAGLES DHC',
+	}
+	getgenv().Alts = {
+	    Alt1 = 271982749,
+	    Alt2 = 2758971095,
+	    Alt3 = 3828964367,
+	    Alt4 = 258346280,
+	    Alt5 = 297113126,
+	    Alt6 = 231557711,
+	    Alt7 = 231391313,
+	    Alt8 = 283225060,
+	    Alt9 = 260992265,
+	    Alt10 = 237272712
+	    CrasherIDs = { 3828964367 }
+	}
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/6mf/lua-scripts/main/%F0%9F%A4%9D%F0%9F%98%81.lua"))()
 end)
 
 close.Name = "close"
