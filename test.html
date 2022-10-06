@@ -1,0 +1,38 @@
+<html>
+<head>
+<style>
+  .non-desktop {
+    display: none;
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    .non-desktop {
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      background: rgb(0, 0, 0);
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .non-desktop p {
+      margin: 0;
+      padding: 0;
+      color: rgb(255, 255, 255);
+      font-family: "Helvetica";
+      font-size: 34px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+</style>
+</head>
+<body>
+<h1>HI</h1>
+
+</body>
+</html>
