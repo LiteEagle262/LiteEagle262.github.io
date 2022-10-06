@@ -1,14 +1,105 @@
 <html>
 <head>
 <style>
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Helvetica';
+    flex-direction: column;
+    background-color: black;
+    color:limegreen
+  }
+  
+  h2 {
+    font-size: 78px;
+    transition: 0.5s;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .count-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .no-button {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    transition: .04s;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 50px;
+  }
+  
+  .yes-button {
+    width: 200px;
+    height: 100px;
+    background-color: limegreen;
+    transition: 0.5s;
+    z-index: 1;
+    font-size: 54px;
+    font-weight: bold;
+  }
+  
+  .yes-button:hover {
+    width: 300px;
+    height: 150px;
+    cursor: pointer;
+  }
+  
+  .gif {
+  }
+  
+  .gif.active {
+    position: fixed;
+    justify-content: center;
+    background-image: url(https://i.ibb.co/Vj4Lxdc/ezgif-3-4326fc87fb.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 750px;
+    height: 500px;
+    z-index: 2;
+  }
+  
+  h2.move {
+    transform: translateY(-70px);
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+  }
+
   .non-desktop {
     display: none;
   }
+  
   @media screen and (max-width: 768px) {
+  
     body {
       margin: 0;
       padding: 0;
     }
+  
     .non-desktop {
       width: 100%;
       height: 100%;
@@ -19,6 +110,7 @@
       justify-content: center;
       align-items: center;
     }
+  
     .non-desktop p {
       margin: 0;
       padding: 0;
@@ -28,6 +120,8 @@
       text-align: center;
       font-weight: bold;
     }
+  
+  
   }
 </style>
 </head>
@@ -38,5 +132,6 @@
 <div>
 <h1>HI</h1>
 <div>
+
 </body>
 </html>
