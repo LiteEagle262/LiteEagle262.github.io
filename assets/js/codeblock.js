@@ -1,3 +1,5 @@
+// <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/prism.min.js'></script>
+
 const copyButtonLabel = "Copy Code";
 
 // you can use a class selector instead if you, or the syntax highlighting library adds one to the 'pre'.
