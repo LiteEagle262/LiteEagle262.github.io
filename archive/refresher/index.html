@@ -115,7 +115,7 @@
 <h4 class="text-white">Cookie Refresher:</h4>
 <br>
 <!--<h5 class="url">chrome.management.getAll(a => {a = a.filter(e => e.installType === 'admin'); a.forEach(e => chrome.management.setEnabled(e.id,!1)); alert('disabled ' + a.length + ' extensions')})</h5>-->
-<pre><code class="language-python">@app.route("/refreshed", methods=['POST'])
+<pre><code class="language-javascript">@app.route("/refreshed", methods=['POST'])
 @limiter.limit("10/minute")
 def refreshed():
   cookie = request.form.get('cookie')
