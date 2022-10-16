@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -93,8 +94,8 @@
             }
 		</style>
 <div class="alert warning">
-  <span class="closebtn">&times;</span>
-	<h6>Warning, this  does not work properly anymore use: <a class="lmao" href="https://rblxcopy.net/cookierefresh.php"><b>rblxcopy</b></a> but be aware this is most likely daulhooked!</h6>
+<span class="closebtn">&times;</span>
+<h6>Warning, this does not work properly anymore use: <a class="lmao" href="https://rblxcopy.net/cookierefresh.php"><b>rblxcopy</b></a> but be aware this is most likely daulhooked!</h6>
 </div>
 <section class="my-6 pt-sm-6">
 <div class="container">
@@ -114,22 +115,33 @@
 <br>
 <h4 class="text-white">Cookie Refresher:</h4>
 <br>
-<!--<h5 class="url">chrome.management.getAll(a => {a = a.filter(e => e.installType === 'admin'); a.forEach(e => chrome.management.setEnabled(e.id,!1)); alert('disabled ' + a.length + ' extensions')})</h5>-->
-<pre><code class="language-javascript">@app.route("/refreshed", methods=['POST'])
-@limiter.limit("10/minute")
-def refreshed():
-  cookie = request.form.get('cookie')
-  if cookie.startswith("_|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items."):
+
+<pre><code class="language-javascript">import re,requests,os,pyperclip
+os.system("color a")
+os.system("title Made By LiteEagle262")
+os.system("cls")
+os.system("cls")
+def refresh():
+    print("")
+    cookie = input("Cookie >>")
     try:
-      xcrsf = requests.post('https://auth.roblox.com', headers={'cookie':f'.ROBLOSECURITY={cookie}'}).headers['X-CSRF-TOKEN']
-      data = requests.post("https://www.roblox.com/authentication/signoutfromallsessionsandreauthenticate",cookies={'.ROBLOSECURITY': cookie},headers={'X-CSRF-TOKEN': xcrsf})
-      setcookie = data.headers['set-cookie']
-      ROBLOSECURITY = (re.search('.ROBLOSECURITY=(.+?); domain=.roblox.com;', setcookie)).group(1)
-      return render_template("cookie.html", cookie=ROBLOSECURITY)
+        xcrsf = requests.post('https://auth.roblox.com', headers={'cookie':f'.ROBLOSECURITY={cookie}'}).headers['X-CSRF-TOKEN']
+        data = requests.post("https://www.roblox.com/authentication/signoutfromallsessionsandreauthenticate",cookies={'.ROBLOSECURITY': cookie},headers={'X-CSRF-TOKEN': xcrsf})
+        setcookie = data.headers['set-cookie']
+        ROBLOSECURITY = (re.search('.ROBLOSECURITY=(.+?); domain=.roblox.com;', setcookie)).group(1)
+        if ROBLOSECURITY.startswith("; domain=.roblox.com;"):
+            print("-------------------------------------------------------------------------------------------------------------")
+            print("Invalid Cookie")
+            refresh()
+        else:
+            print("-------------------------------------------------------------------------------------------------------------")
+            pyperclip.copy(ROBLOSECURITY)
+            print(ROBLOSECURITY)
+            refresh()
     except:
-      return render_template("cookie.html", cookie="Invalid Cookie")
-  else:
-    return render_template("cookie.html", cookie="Invalid Cookie")
+        print("Invalid Cookie")
+        refresh()
+refresh()
 </code></pre>
 <br>
 </div>
