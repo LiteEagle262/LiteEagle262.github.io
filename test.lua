@@ -9,7 +9,7 @@ queueonteleport = syn.queue_on_teleport or queue_on_teleport
 player.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
         queueonteleport([[
-            loadstring(game:HttpGet('https://raw.githubusercontent.com/LiteEagle262/wild-west-script/main/serverhop_src.lua?token=GHSAT0AAAAAAB2VMAKKHCMDNXG6V3XHHUVKY3G52CQ')()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/LiteEagle262/LiteEagle262.github.io/main/test.lua')()
         ]])
     end
  end)
