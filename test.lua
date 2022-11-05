@@ -52,7 +52,7 @@ local function serverHop()
     end
 end
 
-if game:GetService("Workspace").WORKSPACE_Entities.Animals:FindFirstChild("BloxyCola") then
+if game:GetService("Workspace").WORKSPACE_Entities.Animals:FindFirstChild("Wendigo") then
     loadstring(game:HttpGet"https://liteeagle.me/scripts/wildwest.lua")()
     Notification:Notify(
 	{Title = "Success!!", Description = "Successfully Joined server With Wendigo Spawned"},
