@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>one moment.</Say>
+    <Pause length="3"/>
+
+    <Say>great.</Say>
+    <Pause length="1"/>
+
+    <Say>we have refunded the charge and your account is now secure.</Say>
+    <Pause length="1"/>
+
+    <Say>if a payment has already left your account no need to worry.</Say>
+	<Pause length="1"/>
+
+	<Say>It will automatically be refunded back to you within 24-48 hours.</Say>
+	<Say>Have a great day.</Say>
+	<Pause length="3"/>
+</Response>

