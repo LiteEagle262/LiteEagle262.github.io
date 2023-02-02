@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+body {
+	background-color: #212121;
+   color: white;
+	font-family: 'Comfortaa', cursive;
+}
+button {
+		width: fit-content;
+    height: 30px;
+		border-radius: 10px;
+		color: white;
+    border-style: solid;
+	margin-bottom: 5px;
+	background: grey;
+	cursor: pointer;
+}
+.gameimg {
+	width: 150px;
+	height: 150px;
+	border-radius: 15px;
+	margin: 15px;
+	   position: relative;
+	    float: left;
+    margin-right: 10px;
+}
