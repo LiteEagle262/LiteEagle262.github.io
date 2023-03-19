@@ -1,0 +1,184 @@
+####################################################################################################################
+####################################################################################################################
+####################################################################################################################
+####################################################################################################################
+####### EXPECTUS COMPLETE OFFICIAL SKIMMER/CLONER EMV DEBIT/CREDIT CARD CASHOUT GUIDE RELEASE DATE 27.9.2019 #######
+####################################################################################################################
+####################################################################################################################
+
+
+
+
+Hello my friends and welcome to the official ExpectUs Complete Official ATM Skimmer/Cloner EMV Debit/Credit Card Cashout Guide!
+
+
+This is the finest guide for everything you need to acquire to skim EMV Debit/Credit Card Data and Clone it to a blank card and cash it out.
+
+This guide is written with the most minimal of technical terms so you can easily follow the steps and make money. This is not
+a technical whitepaper, this guide is designed with minimal technical jargon, and written in simple words that allow you to
+follow along easily, so you can cashout many many many thousands of dollars. 
+
+This guide is organized for your convenience in the following table of contents.
+
+1. A Complete Cashout Overview. 
+       *The purpose of this Complete Cashout Overview is to list every single component required to have a successful, working,
+cashout operation. It is reccomended that you have in your posession each component to be successful. The websites where you can acquire all of these items is located in this guide, with alternatives based on pricing, so you can be sure to acquire them. This Cashout Overview is your easy to read list, make sure you acquire each item in the list before proceeding.
+
+
+2. System Requirements (software)
+       * This item details where you can very affordably purchase the appropriate software to write EMV Debit/Credit Cards as well
+ as which operating system it has been tested on. It is reccomended to purchase the FULL version of this software for best possible results. Note* You can purchase this software from me, ExpectUs on WSM at this purchase link: 
+http://wallstyizjhkrvmj.onion/offer/35838
+This Software is called 	 
+X2 5.1 (FULL) EMV Chip Writing Software
+
+Note* At the time of purchase on WSM please provide your PGP key in the order detail messages and I will send you a download link PGP Encrypted.
+For OPSEC reasons it is reccomended to use a standalone non-internet-connected Machine when executing the software. This is highly proprietary software for cloning debit and credit cards, and is fully working and up to date This is highly illegal and protected software so please use great OPSEC and do not use this software on an internet connected machine. Connect the listed EMV Chip Debit/Credit Card Printer to the standalone machine as well, import the skimmed or purchased track1 and 2 data and write it to the blank emv cards. 
+
+
+3. System Requirements (hardware) 
+   These are the hardware requirements for setting up an ATM Skimmer and ATM PIN Stealer. 
+    Purchase links and product names. Camera and Overlay to Steal PIN Numbers
+# The Pin Stealing Camera is comprimsed of an overlay and the Camera Itself. It is typically installed anywhere above the Keypad
+  where it will easily be in focus and not conspicuous to the user. 
+    http://msrtron.com/panel-overlays/db-panel
+    *This is the camera overlay for your PIN Stealer camera*
+    https://www.penrecorderpro.com/motion-activated-spy-pen-camera
+    *This will be the actual camera used with the ATM PIN Stealer Camera
+####Actual ATM Track 1 and 2 Skimmer ####
+The ATM Card Skimmer itself is comprised of two components to successfully install.
+The bezel overlay covers the area where the card is entered to help disguise and position the skimmer.
+http://msrtron.com/atm-bezels/db004
+The Skimmer itself is the msr-nano card reader which can be purchased here.
+http://msrtron.com/card-readers/msr-nano
+The actual card writer hardware can be purchased from Wal Mart website: 
+https://www.walmart.com/ip/MCR200-EMV-Smart-IC-Chip-Card-and-Magnetic-Stripe-Card-Reader-and-Writer/620833341
+Or if you choose to purchase the hardware and do not want to purchase the X2 5.1 Full Software to use with this
+card writer, you can purchase the writer hardware WITH the SDK (Software development kit from this link): 
+https://www.alibaba.com/product-detail/MCR200-EMV-IC-Card-Card-Reader_60103472910.html
+
+             
+If you want to purchase software and the EMV Writer you can buy it here for about 2,300 Euros as well, but will still need
+to purchase the bezel, camera, overlay, and skimmer seperately. This listing DOES come with blank EMV cards as well, however it is very expensive at over 2,300 for just the writer, software, and blank cards.
+https://emv-global-solution.com/product/mcr-200-with-emv-software-2/
+
+
+Blank Cards!
+
+To purchase blank cards you can also use any of these resources: 
+http://www.cardusa.com/products/emv-chip-cards/
+You can get a bulk purchase from this seller:
+http://shorelinecards.com/products/emv-smart-cards/
+
+Note, you do NOT need to purchase many different blank cards, you can actually 
+pop/remove the EMV chip from the card and insert it into another simple track 1, 2 
+prepaid gift card as well if you prefer. ^_^
+
+
+###############################################################################################################################
+###############################################################################################################################
+###############################################################################################################################
+
+Hardware and Software Step by Step: 
+
+Each ATM Machine is different based on the manufacturer as far as where and how you will position the skimmer
+as well as how you will position the PIN STEALING CAMERA.
+The camera requires an overlay piece listed above, and the skimmer also requires an overlay piece.
+
+To build a custom overlay for the skimmer you can use a 3d Printer and modeling clay. Place the modeling clay on the existing
+card insert overlay and then photocopy it. Use these photo copies to generate a plastic bezel overlay, for example using a
+3d printer like this model:Dremel DigiLab 3D45 3D Printer: https://www.pcmag.com/article2/0,2817,2470038,00.asp#
+or this model:LulzBot Mini 3D Printer : https://www.pcmag.com/article2/0,2817,2470038,00.asp#, or this model: 
+Ultimaker 3:https://www.pcmag.com/article2/0,2817,2470038,00.asp#
+The lowest priced model is the XYZ Davinci Jr for only 400 dollars:
+ https://www.pcmag.com/review/353022/xyzprinting-da-vinci-jr-2-0-mix
+Or you can find businesses in your area that may provide printing services at a low cost,
+do not provide your real name or any identifying information when placing an order and sending in the photocopies
+of the overlay.
+
+
+So you either purchased the skimmer overlay on MSRtron or had one custom made,
+so now you are ready to test the card reader, so install the software on a standalone machine,
+the X2 5.1 FULL Software. Extract it to Windows System Directory and Execute the File X2 FULL. 
+A Program window will appear. Insert Test Track 1 and 2 Data and Select the option to write the data to the
+blank EMV Card. Make sure the appropriate Country Code is pre-selected or enter it yourself. 
+Make sure you have securely connected the MCR 200 Writer to your standalone machine before selecting the 
+option to clone the data to the card. 
+
+Once you have done this you can now test the card reader(Skimmer) by swiping it through the skimmer, and then
+importing the data into your X2 5.1 Full Software. 
+
+So now you have tested the reader, writer, and the skimmer. 
+
+Now you will want to verify and test the PIN Skimmer (Camera).
+The camera that you ordered was the pen recorder pro. 
+Use a screwdriver to gently crack the pen casing and remove all the components.
+This is a small battery operated camera that includes a timestamp option.
+Do NOT record yourself or any identifying information about you with this camera.
+You can draw a PIN PAD on a piece of paper, affix the camera overhead and with gloves on verify that
+you can see the mock numbers being pressed on the piece of paper. Verify the motion sensor mode is working.
+
+This timestamp on the camera is critical because this timestamp for each pin entry will allow you to see
+and corellate the PIN with the track 1 and 2 data. 
+
+
+################################################################################################################
+################################################################################################################
+################################################################################################################
+
+****Make sure you verify the timestamps are synchronized between the CAMERA and the SKIMMER BEFORE YOU INSTALL******
+Install\WITHDRAW\ and OPSEC procedures
+################################################################################################################
+################################################################################################################
+################################################################################################################
+
+1. Never ever install the skimmer and PIN Stealer Camera on an ATM you have ever used before. 
+ You should verify minimal cameras in the area of the ATM prior to installing, take photographs of the ATM
+with a burner phone, and verify all ATM Information, without actually using or standing in front of the ATM prior to the install. 
+Wear as much as you can to disguise yourself, do not drive or park anywhere near the vicinity of the ATM when you install
+the skimmer and pin stealer, and do not transport yourself to multiple ATMs or near multiple ATMs in the same vehicle. 
+
+Practice the exact steps in which you will install the ATM Skimmer, if you prefer to do the Camera (Pin Stealer first)
+or if you prefer to do the skimmer first, whichever is comfortable for you, but it is reccomended that you do this WHILE
+you use a fraudulent ATM card so it looks like a person is doing a legitimate transaction and not just standing in front of the ATM Machine, some ATMs are monitored 24x7 and others just record, so you always want to make sure anything you do looks completely normal activity. 
+###################################################################################################################
+###################################################################################################################
+###################################################################################################################
+Do NOT wear any identifying clothing or clothing you would normally wear when doing the skimmer/camera install. 
+###################################################################################################################
+###################################################################################################################
+###################################################################################################################
+Make sure the glue you use has been tested and works well to stick the camera and overlay successfully, make sure everything looks
+perfect before you leave. Make sure the skimmer is perfectly in place and cards are not getting stuck as they enter or exit
+the skimmer. Make sure it is properly lined up and stuck over the existing reader. 
+###################################################################################################################
+###################################################################################################################
+###################################################################################################################
+
+It is best to keep an eye on some ATMs a week before you do your install and see how many people frequent them and notate their busiest times, you do not want to be installing a skimmer when a legitimate customer is standing behind you, so make sure you do this during a time in which you will have atleast 90 second to install the camera and skimmer. Practice until it can be done within 90 seconds or less. 
+#################################################################################################################
+#################################################################################################################
+
+Retreive the skimmer and camera to import the data, write the data to the blank cards, cross reference the PIN #s and timestamps  recorded on the camera with the timestamps of the skimmed track1 and 2 dumps and write the track data to the blank EMV cards. 
+
+The best time to cash out is  Thursday Evening between 1150 PM and Midnight 12:05 AM
+Because the withdraw limit resets during Midnite you can usually cashout 1,000 to 1,200 per card
+(Depending on user set withdraw limit) once it passes midnight just withdraw again 5 minutes later.
+
+
+Enjoy!!!
+
+Your Pal
+
+ExpectUs
+
+
+
+
+
+
+
+
+
+
+
