@@ -1,0 +1,42 @@
+I found this a couple weeks ago, it was all mostly working, so I thought I would share a simplyfied version to make it easier for people
+
+this method will teach you how to get an amazon store card with a random balance, though for me most have allowed me to buy a couple items at least before they stop working
+
+1. Go to https://namso-gen.com/ or any other site you know that generates random card numbers
+2. In the BIN put 6045 7811 xxxx xxxx
+3. The can be any 4 numbers you want, switch it up everytime you generate
+4. Use a burner or a TextNow account to call synchrony amazon bank 1(800)333-1082, it is automated system so no talking involved
+5. Once the call picks up dial 1 then 2 then 1 again
+6. Punch in your generated store card number to check if its a valid number or not
+7. if it has a balance it will ask you for a merchant number 5348 1202 8111 0981
+8. [UPDATE] it used to just read you the balance after you put in the merch number, but now it will some times transfer you, what I do is just assume the card has at least 
+$100 spending at this point
+
+
+ORDERING WITH STORE CARDS(IMPORTANT PLESE READ SO YOU NO GET BAN)
+
+It is preferable your amazon account has the following:
+-at least a couple months old
+-1 or 2 legit orders(can be anything) on it
+
+Adding the store card.
+1. Click "Account and Lists".
+2. Click "Payment Options".
+3. Under "Credit or Debit Cards", Click "Add a Card".
+4.Put in store card number, along with the name on your amazon acc
+5. Click "Add your card".
+
+-At this point it is best to wait 1 or 2 days to age the card and not send any red flags to amazon system
+-Also do not use a vpn when ordering or it will not go through
+-Also when you first start using the card, go up in small increments, like first do $30, then $60.... so on. 
+	-BUYING A REALLY EXPENSIVE ITEM WHEN YOU HAVENT USED THE CARD BEFORE WILL MAKE THE CARD DECLINE SO BE SMART ABOUT IT
+
+6. Type your billing address.
+7. Checkout an order and select it as the payment option.
+Checking out.
+1. Choose your shipping address.
+(Amazon Locker\Reship also work)
+2. Choose the newly added payment method.
+(Select “Earn 5% Back”)
+3. Choose the fastest delivery option.
+4. Checkout Order.
