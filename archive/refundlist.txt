@@ -1,0 +1,75 @@
+Amazon (USA, CA, UK, DE, ES) [Product MUST be "Sold by Amazon"]:
+--- Prime accounts can push the limit 50-100 past the limit ---
+//--> Amazon USA - 500 Limit (Some cases 800 if good aged account with no previous refunds to the shipping/billing address and 0 refunds on the accounts) (1-3 items)
+//--> Amazon CA - 500 Limit (Can go up to 800-900 if no previous refunds ever from Amazon and has legit orders) 1-3 items
+//--> Amazon UK, DE, ES - 500 Limit (Closer to around 700ish on good account, no refunds, many legit orders)
+
+General Stores:
+//--> Target USA/International - 900 Limit (1-3 items)
+//--> Walmart USA/CA - 700 Limit (1-3 items) [Must be Sold by Walmart]
+//--> Newegg Worldwide - 500 Limit (2 items) [Must be Sold by Newegg]
+//--> Costco - 600 Limit (1-4 items)
+//--> Wayfair Worldwide - No Limit (1 item)
+
+Electronic Stores:
+//--> BestBuy USA - 4000 Limit (1 item) [10k Limit - Unlimited Items If Paying PayPal]
+//--> BestBuy CA - 1000 Limit (1 item) [10k Limit - Unlimited Items If Paying PayPal]
+//--> Dell Worldwide - 10000 Limit, Unlimited items [Paid with Paypal]
+//--> Canon Worldwide - 10000 Limit, Unlimited items [Paid with Paypal
+//--> Nvidia Worldwide - 10000 Limit, Unlimited items [Paid with Paypal]
+//--> Lenovo Worldwide - 3000 Limit (1 item) [10k Limit - Unlimited Items If Paying PayPal]
+//--> Apple Worldwide - 2000 Limit (1 item) [10k Limit - Unlimited Items If Paying PayPal] (Only 70% Success Rate)
+//--> HP Worldwide - 5000 Limit (1 item) [10k Limit - Unlimited Items If Paying PayPal]
+//--> Notebooksbilliger.de - 2000 Limit (1 item)
+//--> Schwab.de - 1000 Limit (1 item)
+//--> Mediamarkt.de - 2000 Limit (1 item)
+//--> Otto.de - 2000 Limit (1 item)
+//--> Cyberport.de - 2000 Limit (1 item)
+//--> Saturn.de - 2000 Limit (1 item)
+//--> Bol.com - 1500 Limit (1 item)
+//--> Mediamarkt.nl - 1500 (1 item)
+//--> Harmankardon.nl - 500 (1 item)
+
+Clothing & Accessories Stores:
+//--> Zappos Worldwide - 1200 Limit (1-10 items)
+//--> Fanatics Worldwide - 1500 Limit (1-10 items)
+//--> Hollister / Abercrombie Worldwide - 800 limit (1-20 items)
+//--> Saks 5th Ave Worldwide - 1500 Limit (1-3 items)
+//--> Sephora Worldwide - 1000 Limit (1-10 items)
+//--> Nordstrom Worldwide - 1500 Limit (1-5 items)
+//--> Mr Porter Worldwide - 10000 Limit (Unlimited items) [Must be Paid with Paypal]
+//--> Nike Worldwide - 700 Limit (1-5 items)
+//--> Adidas Worldwide - 500 limit (1-3 items)
+//--> SSense Worldwide - 1000 Limit (1-12 items)
+//--> Bloomingdale Worldwide - 2000 Limit (Multiple items)
+//--> Zalando Worldwide - 800 Limit (Unlimited items)
+//--> The North Face Worldwide - 600 Limit (1-2 items)
+//--> Reebok Worldwide - 400 Limit (1-2 items)
+//--> Victoria’s Secret Worldwide - 400 Limit (1-10 Items)
+//--> Ralph Lauren Worldwide - 700 Limit (Few items)
+//--> Tommy Hilfiger Worldwide - 600 Limit (1-7 items)
+//--> Vans Worldwide - 500 Limit (1-3 items)
+//--> Balenciaga Worldwide - 2000 Limit (1-3 items)
+//--> H&M Worldwide - 700 Limit (1-10 items)
+//--> Urban Outfitters Worldwide - 700 Limit (1-12 items)
+//--> ASOS Worldwide - 300-400 Limit (1-10 Items)
+//--> Victoria's Secret Worldwide - 600 Limit (1-10 items)
+//--> Sephora Worldwide - 500 Limit (1-10 items)
+//--> NBA/NFL/NHL Store Worldwide - 1000 Limit (1-10 items)
+//--> Rayban Worldwide - 1000 (Multiple items)
+//--> Sunglasses Hut Worldwide - 1000 (Multiple items)
+//--> Neiman Marcus Worldwide - 2000 Limit (1-2 items)
+//--> Puma Worldwide - 1000 (Multiple items)
+//--> Scotch and Soda Worldwide - 1000 Limit (Multiple items)
+//--> Calvin Klein Worldwide - 500 Limit (Multiple items)
+//--> Champs Worldwide - 1000 (Multiple items)
+//--> Club Monaco Worldwide - 2000 Limit (Multiple items)
+
+Other Stores:
+//--> Macys USA - 1k Limit (few items)
+//--> GNC Worldwide - 500 Limit (Multiple items)
+//--> QVC Worldwide - 2000 Limit (1-3 items)
+//--> Pacsun Worldwide - 350 Limit (Unlimited items)
+//--> The Shopping Channel Canada ONLY - 1k Limit (2 items)
+//--> R.E.I Worldwide. - 300 Limit (1-3 items)
+//--> Lego Worldwide - 500 limit (1- 2 items)
