@@ -1,0 +1,15 @@
+1. Clear cookies on browser, start fresh, hq proxy, etc.
+
+2. Enter this link:
+
+https://www.paypal.com/signin?intent=developer&returnUri=https%3A%2F%2Fdeveloper.paypal.com%2Fdeveloper%2Fapplications
+
+After logging in you can access the full paypal account by returning to the paypal homepage (paypal.com)
+
+3. Paste this link if you wanna get the PayPal's phone number. Use control F to find whatever info you need.
+
+https://www.paypal.com/invoice/s/invoice-model/?template
+
+It's as simple as that :D
+
+IF YOU NEED HELP DM kuro!#0753 ON DISCORD
