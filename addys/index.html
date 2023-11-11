@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="Contacts" property="og:title" />
+<meta content="LiteEagle262 Contact information, and storage" property="og:description" />
+<meta content="https://liteeagle.me/" property="og:url" />
+<meta content="https://i.ibb.co/Cw2tz0c/eagle.jpg" property="og:image" />
+<meta content="#6d00c1" data-react-helmet="true" name="theme-color" />
+<link rel="icon" href="https://i.ibb.co/Cw2tz0c/eagle.jpg">
+<title>Eagle Addys</title>
+<style>
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			background-color: #121212;
+			color: #fff;
+			font-family: Arial, sans-serif;
+		}
+
+		.panel {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: #1f1f1f;
+			padding: 20px;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		}
+
+		h1 {
+			margin-top: 0;
+			font-size: 32px;
+			font-weight: bold;
+			text-align: center;
+			color: #fff;
+		}
+
+		.button {
+			background-color: #ff8800;
+			color: #fff;
+			border: none;
+			padding: 12px 24px;
+			font-size: 16px;
+			border-radius: 5px;
+			margin-top: 10px;
+			cursor: pointer;
+			box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+		}
+
+		.button:hover {
+			background-color: #ff6600;
+		}
+
+		.textarea {
+			margin-top: 20px;
+			width: 100%;
+			height: 150px;
+			padding: 10px;
+			border: 2px solid #ccc;
+			border-radius: 5px;
+			font-size: 16px;
+			resize: none;
+			box-sizing: border-box;
+			background-color: #292929;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+<div class="panel">
+<h1>Addys Quick Copy</h1>
+<div>
+<button class="button" onclick="copyToClipboard('text2')('tex2')">Addys:</button>
+<textarea id="text2" class="textarea" readonly>BTC: bc1qvycuvdsrx5zatr7qvzlsnkej0d65fpsmrqv3m7
+LTC: LS9L28s8xbBNYzsWgBq3jxpVmprBH5Ep19
+XMR: 4AKraeGnLtgcaG1utNBVaBbVMRj1UotzDTbx1CiRTLgebxLhUiwYk8bfKzwdnG5uxDfUCDhnoiw58jgDP7AfRYVdFFtk8QN
+DOGE: DD1WLdFoWk6BKcHaegVvhgfH5xkkfuvrjc
+ETH: 0x4e37e749a61f22e5b64C625D41830416E043D829
+</textarea>
+</div>
+</div>
+<script>
+		function copyToClipboard(elementId) {
+			var element = document.getElementById(elementId);
+			var range = document.createRange();
+			range.selectNode(element);
+			window.getSelection().removeAllRanges();
+			window.getSelection().addRange(range);
+			document.execCommand("copy");
+			window.getSelection().removeAllRanges();
+		}
+	</script>
+</body>
+</html>
