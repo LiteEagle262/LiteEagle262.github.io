@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="https://i.ibb.co/Cw2tz0c/eagle.jpg">
+<title>Blackjack Strategy Chart</title>
+<meta content="Contacts" property="og:title" />
+<meta content="LiteEagle262 Contact information, and storage" property="og:description" />
+<meta content="https://liteeagle.me/" property="og:url" />
+<meta content="https://i.ibb.co/Cw2tz0c/eagle.jpg" property="og:image" />
+<meta content="#6d00c1" data-react-helmet="true" name="theme-color" />
+<style>
+  body {
+    background-color: #111; /* Dark background */
+    color: #32CD32; /* Lime green text */
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #32CD32;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #32CD32;
+    padding: 5px;
+    text-align: center;
+  }
+  th {
+    background-color: #222;
+  }
+  .strategy-header {
+    background-color: #333;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <center><h1>Blackjack Strategy Chart</h1></center>
+  <table>
+    <tr class="strategy-header">
+      <th colspan="11">Dealer's Up Card</th>
+    </tr>
+    <tr>
+      <th>Your Hand</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>A</th>
+    </tr>
+    <!-- Hard Totals -->
+    <tr>
+      <td>8 or less</td>
+      <td colspan="10">Hit</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Hit</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>R</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>R</td>
+      <td>R</td>
+      <td>R</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>RS</td>
+    </tr>
+    <tr>
+      <td>A,2</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>A,3</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>A,4</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>A,5</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>A,6</td>
+      <td>Hit</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Double</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>A,7</td>
+      <td>DS</td>
+      <td>DS</td>
+      <td>DS</td>
+      <td>DS</td>
+      <td>DS</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Hit</td>
+      <td>Hit</td>
+      <td>Hit</td>
+    </tr>
+    <tr>
+      <td>A,8</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>DS</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+      <td>Stand</td>
+    </tr>
+    <tr>
+      <td>A,9</td>
+      <td colspan="10">Hit</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
