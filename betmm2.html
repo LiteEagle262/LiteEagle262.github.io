@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://liteeagle.me/assets/img/betmm2_gem.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Discover BetMM2, the ultimate destination for ROBLOX Murder Mystery 2 enthusiasts! Engage in exclusive PVP battles, trade rare items, and elevate your gaming experience with our unique challenges. Join our thriving community and outsmart your opponents in MM2 today!"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="https://liteeagle.me/assets/img/betmm2_gem.png" />
+    <title>BetMM2 – Win Big in Murder Mystery 2 | #1 ROBLOX casino</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<meta property="og:title" content="BetMM2 – Win Big in Murder Mystery 2 | #1 ROBLOX casino" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://betmm2.com/" />
+	<meta property="og:image" content="https://liteeagle.me/assets/img/betmm2_gem.png" />
+	<meta property="og:description" content="Site description" />
+	<meta name="theme-color" content="#ea191f">
+	<meta name="twitter:card" content="https://liteeagle.me/assets/img/betmm2.png">
+  </head>
+  <body>
+	<div class="flex flex-col items-center justify-center min-h-screen bg-[#121827] text-white">
+	  <img src="https://liteeagle.me/assets/img/betmm2.png" alt="Logo" class="mb-8" />
+	  <div class="text-center">
+		<h1 class="text-4xl font-bold mb-4">Countdown to site launch</h1>
+		<div id="countdown" class="grid grid-cols-4 gap-4">
+		  <div class="bg-[#1a2432] p-5 rounded-lg">
+			<p id="days" class="text-5xl font-bold text-[#fc272c]">00</p>
+			<p class="text-xl">Days</p>
+		  </div>
+		  <div class="bg-[#1a2432] p-5 rounded-lg">
+			<p id="hours" class="text-5xl font-bold text-[#fc272c]">00</p>
+			<p class="text-xl">Hours</p>
+		  </div>
+		  <div class="bg-[#1a2432] p-5 rounded-lg">
+			<p id="minutes" class="text-5xl font-bold text-[#fc272c]">00</p>
+			<p class="text-xl">Minutes</p>
+		  </div>
+		  <div class="bg-[#1a2432] p-5 rounded-lg">
+			<p id="seconds" class="text-5xl font-bold text-[#fc272c]">00</p>
+			<p class="text-xl">Seconds</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<script>
+	  const countdownDate = new Date("June 21, 2024 00:00:00").getTime();
+
+	  const updateCountdown = () => {
+		const now = new Date().getTime();
+		const distance = countdownDate - now;
+
+		const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+		const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+		const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+		const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+		document.getElementById("days").innerText = days.toString().padStart(2, '0');
+		document.getElementById("hours").innerText = hours.toString().padStart(2, '0');
+		document.getElementById("minutes").innerText = minutes.toString().padStart(2, '0');
+		document.getElementById("seconds").innerText = seconds.toString().padStart(2, '0');
+
+		if (distance < 0) {
+		  clearInterval(x);
+		  document.getElementById("countdown").innerHTML = "<p class='text-4xl'>The site will launch soon!</p>";
+		}
+	  };
+
+	  updateCountdown();
+	  const x = setInterval(updateCountdown, 1000);
+	</script>
+	</body>
+</html>
