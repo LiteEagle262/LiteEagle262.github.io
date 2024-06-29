@@ -46,7 +46,8 @@
 </div>
 </div>
 <script>
-	  const countdownDate = new Date("June 29, 2024 00:00:00").getTime();
+	  const countdownDate = new Date();
+      countdownDate.setHours(17, 0, 0, 0);
 
 	  const updateCountdown = () => {
 		const now = new Date().getTime();
