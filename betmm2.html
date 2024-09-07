@@ -16,6 +16,7 @@
 <meta property="og:image" content="https://liteeagle.me/assets/img/betmm2_gem.png" />
 <meta property="og:description" content="Site description" />
 <meta name="theme-color" content="#ea191f">
+<meta name="robots" content="noindex, nofollow">
 <meta name="twitter:card" content="https://liteeagle.me/assets/img/betmm2.png">
 <link rel="stylesheet" type="text/css" href="https://liteeagle.me/assets/css/discord.css">
 </head>
@@ -44,33 +45,32 @@
 </div>
 </div>
 </div>
-<script>
-	  const countdownDate = new Date();
-      countdownDate.setHours(17, 0, 0, 0);
+    <script>
+        const countdownDate = new Date('2024-08-20T15:00:00-04:00');
 
-	  const updateCountdown = () => {
-		const now = new Date().getTime();
-		const distance = countdownDate - now;
+        const updateCountdown = () => {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
 
-		const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-		const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-		const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-		const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-		document.getElementById("days").innerText = days.toString().padStart(2, '0');
-		document.getElementById("hours").innerText = hours.toString().padStart(2, '0');
-		document.getElementById("minutes").innerText = minutes.toString().padStart(2, '0');
-		document.getElementById("seconds").innerText = seconds.toString().padStart(2, '0');
+            document.getElementById("days").innerText = days.toString().padStart(2, '0');
+            document.getElementById("hours").innerText = hours.toString().padStart(2, '0');
+            document.getElementById("minutes").innerText = minutes.toString().padStart(2, '0');
+            document.getElementById("seconds").innerText = seconds.toString().padStart(2, '0');
 
-		if (distance < 0) {
-		  clearInterval(x);
-		  document.getElementById("countdown").innerHTML = "<p class='text-4xl'>The site will launch soon!</p>";
-		}
-	  };
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "<p class='text-4xl'>The site will launch soon!</p>";
+            }
+        };
 
-	  updateCountdown();
-	  const x = setInterval(updateCountdown, 1000);
-	</script>
+        updateCountdown();
+        const x = setInterval(updateCountdown, 1000);
+    </script>
 <script>
 var elements = document.querySelectorAll('.discord-dialog__close-button, .discord-dialog')
 for (var i = 0; i < elements.length; i++) {
