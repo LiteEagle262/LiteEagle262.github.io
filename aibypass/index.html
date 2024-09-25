@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co/Cw2tz0c/eagle.jpg">
+    <title>AI Detection Bypasser</title>
+    <meta content="Contacts" property="og:title" />
+    <meta content="LiteEagle262 Contact information, and storage" property="og:description" />
+    <meta content="https://liteeagle.me/" property="og:url" />
+    <meta content="https://i.ibb.co/Cw2tz0c/eagle.jpg" property="og:image" />
+    <meta content="#6d00c1" data-react-helmet="true" name="theme-color" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: #fff;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .slider-container {
+            margin-bottom: 20px;
+        }
+        input[type="range"] {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        textarea {
+            width: 100%;
+            resize: vertical;
+            min-height: 150px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+        }
+        .output {
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+        p {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        .textarea-label {
+            font-size: 1.1em;
+            margin-bottom: 5px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Text Doper</h2>
+        <div class="slider-container">
+            <input type="range" min=0 max=1 step=0.1 value=0 data-zwsp oninput="dope()">
+            <label>Zero Width Space Threshold</label>
+            <input type="range" min=0 max=1 step=0.1 value=0 data-homo oninput="dope()">
+            <label>Homoglyph Threshold</label>
+            <input type="range" min=0 max=1 step=0.1 value=.8 data-space oninput="dope()">
+            <label>Space Threshold</label>
+        </div>
+        <label for="input-text" class="textarea-label">Input Text:</label>
+        <textarea id="input-text" class="before" oninput="dope()" placeholder="AI generated text here..."></textarea>
+        <label for="output-text" class="textarea-label">Output Text:</label>
+        <textarea id="output-text" class="after output" readonly placeholder="Output text here"></textarea>
+        <p id="result"></p>
+        <p>All credits to <a href="https://github.com/Tharuka-Sandaruwan/AI-Bypasser">AI-Bypasser</a> for making this. I'm just storing it on my site for ease of access without downloading, and made it look better.</p>
+    </div>
+    <script>
+        window.onerror = (e) => {
+            alert(e)
+        }
+
+        function dope() {
+            var out = "";
+            var threshold = document.querySelector("[data-zwsp]").value;
+            var homoglyphThreshold = document.querySelector("[data-homo]").value;
+            var spaceThreshold = document.querySelector("[data-space]").value;
+            var dopechars = ["\u200c", "\u200d", "\uFEFF"];
+            var dopeCount = 0;
+            var spacechars = ["\u2008", "\u2007"];
+            var arr = document.querySelector(".before").value.split("");
+            arr.forEach(char => {
+                if (Math.random() > homoglyphThreshold) {
+                    out += char.replace(".", "\u002e").replace("K", "\u212A").replace(":", "\u2236").replace("A", "\u0410").replace("a", "\u0430").replaceAll("M", "\u041C").replaceAll("X", "\u0425").replaceAll("x", "\u0445").replaceAll("E", "\u0415").replaceAll("e", "\u0435").replaceAll("O", "\u041E").replaceAll("o", "\u043E");
+                    dopeCount++;
+                } else if (Math.random() > spaceThreshold) {
+                    out += char.replace(" ", spacechars[Math.floor(Math.random() * spacechars.length)]);
+                    dopeCount++;
+                } else {
+                    out += char;
+                }
+                if (Math.random() > threshold) {
+                    out += dopechars[Math.floor(Math.random() * dopechars.length)];
+                    dopeCount++;
+                }
+            });
+            document.querySelector(".after").value = out;
+            document.querySelector("#result").innerText = "Inserted " + dopeCount + " doping characters.";
+        }
+    </script>
+</body>
+</html>
