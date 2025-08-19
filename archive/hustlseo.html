@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hustlit SEO Flowchart (Dark Theme)</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark'
+        });
+    </script>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .mermaid {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mermaid">
+        flowchart TD
+            subgraph "Hustlit Blog Automation with Dynamic SEO"
+                A[Daily Trigger: 100 per day] --> B[Trigger Grok 4 to Research based on Keywords in Google Sheets]
+                B --> C[Pick Topic and Write Article]
+                C --> D[Content Quality Filter]
+                D -->|Pass| E[OpenAI Image Thumbnail Generation]
+                E --> F[Area Adder: Add Area Templates for Target Keywords<br>e.g., Lawn Mowing in Buffalo, New York 11111]
+                F --> G[Post to Hustlit Website with 100 Area Templates, Tags, and Content<br>For Every 1 Article: 100 Variations Targeted to Specific Areas]
+                D -->|Fail| H[Revise]
+            end
+
+            subgraph "SEO Setup"
+                I[Marketplace: Hundreds of Keywords with Thousands of Area Static SSR Templates for SEO]
+                I --> J[NextJS Dynamically Updates All Sitemaps for Google to Index]
+            end
+
+            subgraph "Strategy Advantage"
+                U[With This Strategy: Beat Out Most Local Businesses Especially in Lower Populated Areas,<br>While Still Ranking High in Highly Populated Areas]
+            end
+
+            subgraph "Consumer Visualization - Marketplace SEO Path"
+                K[User Searches: 'Lawn Mowing Near Me'] --> L[Google Auto-Populates Location<br>e.g., Lawn Mowing in Buffalo, New York 11111]
+                L --> M[Search Result 1: Hustlit Marketplace Page<br>'Find the Best Lawn Mowing Businesses in Buffalo, New York 11111']
+                M --> N[User Clicks] --> O[Final Funnel]
+            end
+
+            subgraph "Consumer Visualization - Blog SEO Path"
+                P[User Searches: 'How to Start a Lawn Mowing Business in Buffalo NY'<br>or 'Near Me' for Auto-Populate] --> Q[Search Result 1: Hustlit Blog Page<br>'How to Start a Lawn Mowing Business in Buffalo, New York 11111']
+                Q --> R[User Clicks to Marketplace or Start Business on Blog] --> O[Final Funnel]
+            end
+
+            subgraph "Final Funnel"
+                O --> S[User Clicks Marketplace Business<br>or Go to Marketplace/Start a Business]
+                S --> T[Revenue: Subscriptions/Fees from Businesses<br>or Fees from Marketplace Revenue<br>For Every $10,000 Brought to Businesses in a Certain Area: EST $535]
+            end
+
+            G --> J
+            J --> K
+            J --> P
+            J --> U
+    </div>
+</body>
+</html>
